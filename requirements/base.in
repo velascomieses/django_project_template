@@ -1,0 +1,7 @@
+# requirements.in
+django
+djangorestframework
+djangorestframework-simplejwt
+pandas
+requests
+beautifulsoup4

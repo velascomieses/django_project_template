@@ -1,0 +1,22 @@
+from .settings import *
+
+DEBUG = True
+ALLOWED_HOSTS = ['*']
+
+LOGIN_REDIRECT_URL = '/'
+LOGOUT_REDIRECT_URL = '/accounts/login'
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'mydatabase',
+        'USER': 'mydatabaseuser',
+        'PASSWORD': 'mypassword',
+        'HOST': '127.0.0.1',
+        'PORT': '5432',
+    }
+}
+
+JASPER_URL = 'http://localhost:8080/jasperserver'
+JASPER_USER = 'jasperadmin'
+JASPER_PASSWORD = 'jasperadmin'
