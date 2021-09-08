@@ -2,6 +2,7 @@
 django==3.2.4
 djangorestframework
 djangorestframework-simplejwt
+django-cors-headers
 pandas
 requests
 beautifulsoup4
